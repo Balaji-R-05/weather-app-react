@@ -1,0 +1,131 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: #626262;
+    background-color: #ebfffc;
+    font-size: 16px;
+    min-width: 0;
+}
+
+.search-bar img {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #ebfffc;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.weather-icon {
+    width: 130px;
+    margin: 30px 0 15px 0;
+}
+
+.temperature {
+    color: #ff9d00;
+    font-size: 60px;
+    text-align: center;
+}
+
+.city {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.weather-data {
+    width: 100%;
+    margin-top: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 20px;
+    flex: 1 1 45%;
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 14px;
+}
+
+/* ✅ Mobile responsiveness */
+@media (max-width: 500px) {
+    .temperature {
+        font-size: 48px;
+    }
+
+    .city {
+        font-size: 24px;
+    }
+
+    .weather-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .weather-data .col {
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .weather-icon {
+        width: 100px;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+    }
+
+    .search-bar img {
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+    }
+}
+
+
+/* THEME */
+.weather {
+    background-image: linear-gradient(135deg, #1e1e2f, #3a3a5f); /* deep navy & slate */
+    color: #f2f2f2;
+}
+
+.search-bar input,
+.search-bar img {
+    background-color: #2a2a40;
+    color: #ccc;
+}
