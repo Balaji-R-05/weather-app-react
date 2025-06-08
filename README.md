@@ -2,6 +2,9 @@
 
 A simple weather application built with React that displays current weather information for any city using the OpenWeatherMap API.
 
+<!-- ![Demo Screenshot](./images/demo.png) -->
+<img src="./images/demo.png" alt="Website Demo" width="700" height="500" />
+
 ## 🚀 Features
 
 - Search for weather by city name
