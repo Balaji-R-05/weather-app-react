@@ -132,3 +132,14 @@
     background-color: #2a2a40;
     color: #ccc;
 }
+button{
+    position: fixed;
+    top: 80%;
+    left:75%;
+    width: 90px;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 0 auto;
+    
+}

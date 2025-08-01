@@ -1,11 +1,9 @@
-import Weather from './components/Weather'
-import Chatbot from './components/Chatbot';
+import Weather from './components/Weather';
 
 const App = () => {
   return (
     <div className='app'>
-      <Weather/>
-      {/* <Chatbot weatherData={weatherData} /> */}
+      <Weather />
     </div>
   )
 }
