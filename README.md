@@ -35,9 +35,7 @@ A simple weather application built with React that displays current weather info
 
 2. **🔑 Add your OpenWeatherMap API key**
    - Create a `.env` file in the project root with the following content:
-     ```env
-     VITE_WEATHER_API_KEY=************
-     ```
+   - VITE_WEATHER_API_KEY (your OpenWeather API key)
    - Get an API key from https://openweathermap.org/ and restart the dev server if it's running.
 
 3. **📦 Install dependencies**
