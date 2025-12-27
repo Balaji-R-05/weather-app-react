@@ -12,9 +12,10 @@ A simple weather application built with React that displays current weather info
 ## 🚀 Features
 
 - Search for weather by city name
-- Displays temperature, humidity, wind speed, and weather condition
+- Displays temperature (°C), humidity, wind speed, and weather condition
 - Responsive and modern UI
 - Weather icons for different conditions
+- Fast development & build using Vite
 
 ## 💻 Tech Stack
 
@@ -35,7 +36,7 @@ A simple weather application built with React that displays current weather info
 2. **🔑 Add your OpenWeatherMap API key**
    - Create a `.env` file in the project root with the following content:
      ```env
-     VITE_WEATHER_API_KEY="your_api_key_here"
+     VITE_WEATHER_API_KEY=************
      ```
    - Get an API key from https://openweathermap.org/ and restart the dev server if it's running.
 
