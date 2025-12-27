@@ -1,7 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-
 import './Weather.css'
-
 import search_icon from '../assets/search.png'
 import clear_icon from '../assets/clear.png'
 import cloud_icon from '../assets/cloud.png'
@@ -13,11 +11,8 @@ import wind_icon from '../assets/wind.png'
 
 
 const Weather = () => {
-
     const inputRef = useRef();
-
     const [weatherData, setWeatherData] = useState(false);
-
     const allIcons = {
         "01d": clear_icon,
         "01n": clear_icon,
