@@ -30,7 +30,6 @@ const Weather = () => {
         "13n": snow_icon
     }
     const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
-
     const search = async (cityName) => {
         try {
             if (cityName === "") {

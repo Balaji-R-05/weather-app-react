@@ -2,12 +2,26 @@
 
 A simple weather application built with React that displays current weather information for any city using the OpenWeatherMap API.
 
-<figure>
-  <a href="https://openweather-ui.netlify.app" target="_blank" rel="noopener noreferrer">
-    <img src="./images/demo.png" alt="Weather App demo showing search and current weather for a city" loading="lazy" decoding="async" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.12);" />
-  </a>
-  <figcaption style="text-align:center;font-size:0.9rem;color:#666;margin-top:0.5rem;">Click to view live project</figcaption>
-</figure>
+<div align="center" style="margin: 16px 0;">
+  <img
+    src="./images/demo.png"
+    alt="Weather App demo showing city search and current weather details"
+    loading="lazy"
+    decoding="async"
+    style="
+      max-width: 100%;
+      width: 600px;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.18);
+      display: block;
+    "
+  />
+  <div style="margin-top: 10px; font-size: 0.95rem; color: #555;">
+    Weather App – Search and display real-time weather data
+  </div>
+</div>
+
 
 ## 🚀 Features
 
