@@ -59,6 +59,7 @@ const Weather = () => {
                 });
                 return;
             }
+
             console.log(data);
             const icon = allIcons[data.weather[0].icon] || clear_icon;
             setWeatherData({
